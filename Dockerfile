@@ -1,3 +1,3 @@
 FROM ubuntu:15.04
 WORKDIR /usr/src/codeRest
-CMD ["echo","Hello World"]
+CMD ["/bin/echo","Hello World"]
